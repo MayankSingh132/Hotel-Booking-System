@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read More</title>
+    <link rel="stylesheet" href="/readkuch.css">
+</head>
+<body>
+    <section id="read-more">
+        <div class="container">
+            <h1>Read More</h1>
+            <article class="read-more-item">
+                <h2>Why Choose Our Hotel?</h2>
+                <p>Discover the reasons why our guests love to stay with us...</p>
+                <button onclick="showContent('content1')">Read More</button>
+                <p id="content1" class="hidden">Our hotel offers unparalleled comfort, exceptional service, and top-notch amenities, ensuring a memorable stay for all our guests.</p>
+            </article>
+            <article class="read-more-item">
+                <h2>Explore Local Attractions</h2>
+                <p>Find out about the best attractions near our hotel...</p>
+                <button onclick="showContent('content2')">Read More</button>
+                <p id="content2" class="hidden">From historical landmarks to cultural hotspots, our location is perfect for exploring the rich heritage and vibrant life of the city.</p>
+            </article>
+            <article class="read-more-item">
+                <h2>Customer Reviews</h2>
+                <p>Read what our guests have to say about their experiences...</p>
+                <button onclick="showContent('content3')">Read More</button>
+                <p id="content3" class="hidden">"Fantastic service and an unbeatable location! We’ll definitely be back." - Satisfied Guest</p>
+            </article>
+        </div>
+    </section>
+    <script src="scripts.js"></script>
+</body>
+</html>
